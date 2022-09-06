@@ -1,0 +1,8 @@
+{
+  "name": "DoctorMidecal",
+  "version": "1.0.0",
+  "description": "Demo NodeJs",
+  "main": "index.js",
+  "author": "QUAX2H",
+  "license": "MIT"
+}
