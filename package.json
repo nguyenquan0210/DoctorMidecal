@@ -4,5 +4,17 @@
   "description": "Demo NodeJs",
   "main": "index.js",
   "author": "QUAX2H",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.8",
+    "nodemon": "2.0.5",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.3"
+  }
 }
