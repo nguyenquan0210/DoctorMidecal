@@ -6,8 +6,6 @@ import jwt from 'jsonwebtoken';
 const authMiddleware = (req: Request, res: Response, next: NextFunction) => {
     const token = req.header('x-auth-token');
 
-    console.log(token);
-
     if (!token)
         return res.status(401).json({ message: 'No token, authorization denied.' });
 
